@@ -1,0 +1,65 @@
+/* 
+författare: andreas
+projekt: wordpress projekt
+*/
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+}
+
+h1 {
+    color: red;
+    font-size: 3rem;
+}
+
+h2 {
+    color: violet;
+    font-size: 2rem;
+}
+
+.wp-image-96{
+    width: 50%;
+    height: 50%;
+}
+
+.wp-image-81{
+    width: 50%;
+    height: 50%;
+}
+
+.wp-image-83{
+    width: 50%;
+    height: 50%;
+}
+
+.posts {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.posts__post {
+
+}
+
+.post_content {
+
+}
+
+.header{
+    background: chartreuse;
+    height: 150px;
+}
+
+.footer{
+    height: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
