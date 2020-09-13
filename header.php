@@ -7,6 +7,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+
     <div class="header">
     <h1><?php echo get_bloginfo('name') ." - ". get_bloginfo('description'); ?></h1>
 
