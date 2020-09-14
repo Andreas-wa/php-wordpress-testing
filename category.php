@@ -1,13 +1,20 @@
 <?php get_header(); ?>
 
 <h1>category.php</h1>
+<a href="http://localhost/wordpress/hem/">start sidan</a>
+
+<br>
+
+<?= wp_list_categories(); ?>
+
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-        <?= the_category(); ?>
-        
-        <h2><a href="<?php the_permalink(); ?>"><?= the_title(); ?> - <?= get_the_date(); ?></a></h2>
-            <?= get_the_author(); ?>
+                
+        <h2><a href="<?php the_permalink(); ?>"><?= the_title(); ?> - <?= get_the_date(); ?></a></h2> 
             <?= the_content(); ?>
+            <p>Författare:
+            <?= the_author_posts_link(); ?></p>
+
 
         <?php endwhile; ?>
     

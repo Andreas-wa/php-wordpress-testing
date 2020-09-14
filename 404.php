@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<a href="http://localhost/wordpress/hem/">start sidan</a>
 
 <center>
 

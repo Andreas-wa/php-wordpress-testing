@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <h1>archive.php</h1>
+<a href="http://localhost/wordpress/hem/"></a>
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
         

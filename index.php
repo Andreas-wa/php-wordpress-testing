@@ -10,12 +10,13 @@
         <div class="posts__post">
         
             <h2><a href="<?php the_permalink(); ?>"><?= the_title(); ?> - <?= get_the_date(); ?></a></h2>
-            <?= get_the_author(); ?>
-
 
         </div class="post__content">
-            <?= the_content(); ?>
             <?= the_category(); ?>
+            <?= the_content(); ?>
+            <p>Författare: 
+            <?= the_author_posts_link(); ?>
+            </p>
         </div>
 
         <?php endwhile; ?>
