@@ -11,9 +11,10 @@
     <div class="header">
     <h1><?php echo get_bloginfo('name') ." - ". get_bloginfo('description'); ?></h1>
 
+    <?php wp_nav_menu(array('header-menu' => 'header_menu')); ?>
     </div>
     <style>
-    
+
     </style>
 
-    <?= do_action('wp_head'); ?>
+<?= do_action('wp_head'); ?>
