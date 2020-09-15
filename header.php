@@ -13,5 +13,7 @@
 
     </div>
     <style>
-        <?php include 'style.css' ?>
+    
     </style>
+
+    <?= do_action('wp_head'); ?>
