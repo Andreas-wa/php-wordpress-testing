@@ -8,8 +8,6 @@
 </head>
 <body>
 
-<?php dynamic_sidebar('new_sidebar'); ?>
-
     <div class="header">
     <h1><?php echo get_bloginfo('name') ." - ". get_bloginfo('description'); ?></h1>
 
