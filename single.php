@@ -4,7 +4,6 @@
 <a href="http://localhost/wordpress/hem/">start sidan</a>
 
 
-
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
         
             <h2><?= the_title(); ?> - <?= get_the_date(); ?></h2>

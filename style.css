@@ -29,7 +29,7 @@ a{
     color: lightskyblue;
 }
 
-.blinking{
+/* .blinking{
     animation:blinkingText 0.5s infinite;
 }
 
@@ -39,7 +39,7 @@ a{
     60%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
-}
+} */
 
 .wp-image-96{
     width: 50%;
@@ -62,16 +62,12 @@ a{
     width: 50%;
 }
 
-/* .posts__post {
-
+.listCat{
+    color: lime;
 }
 
-.post_content {
-
-} */
-
 .header{
-    background: coral;
+    background: blue;
     height: 150px;
 }
 

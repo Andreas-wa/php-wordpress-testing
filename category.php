@@ -4,9 +4,9 @@
 <a href="http://localhost/wordpress/hem/">start sidan</a>
 
 <br>
-
-<?= wp_list_categories(); ?>
-
+<div class="listCat">
+    <?= wp_list_categories(); ?>
+</div>
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
                 
@@ -23,5 +23,7 @@
         <h1>Nya sida som inte är helt klar än.</h1>;
 
     <?php endif; ?>
+
+    <!-- </div> -->
 
     <?php get_footer(); ?>
