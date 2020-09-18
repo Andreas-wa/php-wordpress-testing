@@ -2,7 +2,7 @@
 
 <h1>single.php</h1>
 <a href="http://localhost/wordpress/hem/">start sidan</a>
-
+<center>
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
         

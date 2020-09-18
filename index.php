@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<center>
 <h1>index.php</h1>
 <?php if(have_posts()) : ?>
 
@@ -78,4 +79,6 @@
         4. index.php
         
  -->
+</center>
+
 <?php get_footer(); ?>

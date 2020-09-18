@@ -6,6 +6,7 @@
     <title><?php echo get_bloginfo('name'); ?></title>
     
     <?php wp_head(); ?>
+    <?php dynamic_sidebar('new_sidebar'); ?>
 
 </head>
 <body>
@@ -13,8 +14,6 @@
     <div class="header">
     <h1><?php echo get_bloginfo('name') ." - ". get_bloginfo('description'); ?></h1>
 
-    <?php wp_nav_menu(array('header-menu' => 'header_menu')); ?>
+    <?php wp_nav_menu(array('header_menu' => 'Header menu')); ?>
     
     </div>
-
-<?= do_action('wp_head'); ?>

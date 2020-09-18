@@ -2,6 +2,7 @@
 
 <h1>author.php</h1>
 <a href="http://localhost/wordpress/hem/">start sidan</a>
+<center>
 
 <!-- listan/länk över all författare -->
 <?php wp_list_authors(); ?>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<center>
 <h1>category.php</h1>
 <a href="http://localhost/wordpress/hem/">start sidan</a>
 
@@ -15,7 +15,6 @@
             <p>Författare:
             <?= the_author_posts_link(); ?></p>
 
-
         <?php endwhile; ?>
     
     <?php else : ?>
@@ -26,4 +25,5 @@
 
     <!-- </div> -->
 
+    <center>
     <?php get_footer(); ?>
