@@ -18,4 +18,5 @@
     <?php endif; ?>
 
 </center>
+
 <?php get_footer(); ?>
